@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Simple Presentation</title>
+    <link rel="stylesheet" href="slidr.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body>
+
+<progress id='page-progress'></progress>
+
+<page style='padding-top: 12em;'>
+<h1>Virtual SIM Card</h1>
+<hr/>
+<h2>Virutal Subscriber Identity Module</h2>
+<strong><i>Telephony as a Service</i></strong>
+</page>
+
+
+<page>
+<h1>What ?</h1>
+<pre>
+- an implementation of the (U)SIM functionality inside the terminal device 
+    instead of in a separate physical module (UICC).
+
+  * USIM - Universal Subscriber Identity Module
+    - Security Module for UMTS. as opposed to the SIM card, 
+      this term denotes the logical application
+      performing the SIM functionality, and not the physical card itself (see UICC).
+  * UICC - Universal Integrated Circuit Card
+    - Multi-application smart card platform used in mobile 
+      telecommunication networks.
+      e.g. an USIM application in the case of UMTS
+  * UMTS - Univeral Mobile Telecommunications System
+
+- like Cloud data storage
+- other types (APPLE) Soft SIM
+  collection of software applicatoins and data that perform all of the functionallity.
+  it would be stored in the memory and processor of the commuications device itself.
+
+</pre>
+</page>
+
+
+<page>
+<h1>Why ?</h1>
+<pre>
+- first SIM is the physically secured module which contains the IMSI, 
+  key and security related information and fuctions
+
+- In order to differentiating features in the terminal. 
+  so SIM card had been evolved
+
+- It have to modify the internal SIM card to store more data.
+
+- then Virtual SIM has been happened to stop this evolution
+
+</pre>
+</page>
+
+
+<page>
+<h1>Why ? (cont)</h1>
+<pre>
+- GSM standards where established in such way 
+  the a removable smart card was to be used
+
+- SIMEG(SIM Expert Group) considered fixed SIM 
+  but was rejected because
+
+- there was no viable way to securely store 
+  the secret algorithm and subscriber key inther terminal.
+
+- there was the problem of how to load the key 
+  and algorithm in ther terminal
+- It could be a commercial barrier
+
+- Today's consumers use dual- and triple-SIM handsets tablits, 
+  USB modems, and many other typs of connected devices.
+</pre>
+</page>
+
+
+<page>
+<h1>Pros</h1>
+<pre>
+- It's low-cost. no logistics necessary for distribution to end-users.
+
+- create new ways of selling subscriptions
+
+- Any SIM anywhere anytime
+
+- Mobile Terminals can be installed anywhere without a local SIM
+
+- Global Roaming
+</pre>
+</page>
+
+
+<page>
+<h1>Cons</h1>
+<pre>
+- SIM vendor become obsolete and disappear from ecosystem
+</pre>
+</page>
+
+
+<page>
+<h1>How ?</h1>
+<pre>
+- core concept is to multiplex idectification data from SIM cards 
+  of differenct mobile service providers combined 
+  in one virtual SIM-card.
+
+- Terminals connect to distributed SIM server
+
+- there's software part being a core of VSIM
+
+- Its responsible for algorithms of swichting over 
+  between loaded SIM cards of differenct mobile service providers.
+
+- SIM card loading means receiving data for the 
+  subscriber's authentication in a mobile network of 
+  a new mobile service provider with assignment of a new phone number.
+
+- SIM server
+</pre>
+</page>
+
+
+<page>
+<h1>Comparation</h1>
+<table style='text-align: left;' border="1px">
+    <thead>
+        <tr>
+            <th>GSM SIM card</th>
+            <th>Virtual SIM (vSIM)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Speed of call connection request in btw 300-400ms</td>
+            <td>Same</td>
+        </tr>
+        <tr>
+            <td>Can use 2G, 3G, and 4G</td>
+            <td>Require internet access</td>
+        </tr>
+        <tr>
+            <td>Message can be sent anytime. Rate of sending is many at a time</td>
+            <td>Message can be sent anytime (except India). Rate of sending is one at a time</td>
+        </tr>
+        <tr>
+            <td>One SIM for each phone</td>
+            <td>Multi SIMs for each phone</td>
+        </tr>
+        <tr>
+            <td>Longer purchasing process</td>
+            <td>Easy purchasing process</td>
+        </tr>
+        <tr>
+            <td>Security check is faster as the SIM card</td>
+            <td>Security checking process is slower - double checking at the web server and clound center</td>
+        </tr>
+        <tr>
+            <td>Tele services reports take time</td>
+            <td>Easy for client to monitor their own tele service usage</td>
+        </tr>
+        <tr>
+            <td>Conference calls not supported fully</td>
+            <td>Conference calls can be supported fully</td>
+        </tr>
+        <tr>
+            <td>Uses up phone memory to store SIM details</td>
+            <td>Used up loess memory on phone while more SIM data is stored on a cloud</td>
+        </tr>
+        <tr>
+            <td>Can be implemented on GSM enabled phones</td>
+            <td>Is implementable on all android, iPhone devices,  extendable to the browser</td>
+        </tr>
+    </tbody>
+</table>
+</page>
+
+
+<page>
+<h1>Existing Solutions</h1>
+<pre style='float: left;'>
+- Movirtu Many me
+    <img src='./assets/movirtu.png' width="450px" />
+</pre>
+
+<pre style='float: left;'>
+- Implementta Virtual SIM Platform
+    <img src='./assets/implementa.png' width="450px" />
+</pre>
+</page>
+
+
+<page>
+<h1>Existing Solutions (Cont)</h1>
+<pre style='float: left;'>
+- Apple's Soft SIM.
+   <img src='./assets/apple.png' width="450px" />
+</pre>
+<pre style='float: left;'>
+- Simgo Virtual SIM platform
+   <img src='./assets/simgo.png' width="450px" />
+</pre>
+</page>
+
+
+<script src="slidr.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html> 
