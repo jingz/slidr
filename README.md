@@ -27,3 +27,5 @@ inside HTML body
 </pre>
 </page>
 ```
+
+## [Demo](https://jingz.github.io/slidr/example.html)
