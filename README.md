@@ -1,19 +1,16 @@
 # Slidr - a simple presentation
----
 
 
 ## Installation
-
-    include slidr.js and slidr.css files
+include slidr.js and slidr.css files
 
 
 ## Usage
-
-    inside HTML body
+inside HTML body
 
 ```html
-
 <page>
+
 <pre>
 - presented content 1  
 - presented content 2
@@ -25,6 +22,8 @@
 
 <!-- next page -->
 <page>
+<pre>
 ...
+</pre>
 </page>
 ```
